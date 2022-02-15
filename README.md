@@ -1,2 +1,2 @@
 # nda-newsportal
-Frontend of NDA - news portal
+Frontend using materializecss and native JS
