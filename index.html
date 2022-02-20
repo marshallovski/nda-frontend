@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>NDA - News Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/home.css">
+  <link rel="icon" href="./assets/logo.png">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <meta name="title" content="NDA">
+  <meta name="description" content="NDA - The search engine with latest international news, events, etc.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://">
+  <meta property="og:title" content="NDA">
+  <meta property="og:description" content="NDA - The search engine with latest international news, events, etc.">
+  <meta property="og:image" content="/assets/logo.png">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://">
+  <meta property="twitter:title" content="NDA">
+  <meta property="twitter:description" content="NDA - The search engine with latest international news, events, etc.">
+  <meta property="twitter:image" content="/assets/logo.png">
+  <meta name="keywords"
+    content="NDA,nda,nda news,nda news portal,NDA news,NDA news portal,НДА,нда,нда новости,НДА новости,нда портал новостей,НДА портал новостей,новости,НОВОСТИ,news,NEWS,world news,новости мира,поиск,поисковик,гугл,гуугл,гугол,гуугол,google,gogle,гогл,search,anonymous,anonymous search, search without telemetry,monori">
+
+
+
+<body>
+
+  <noscript>
+    <style>
+      main {
+        display: none;
+      }
+
+      h1 {
+        text-align: center;
+        font-family: sans-serif;
+      }
+    </style>
+    <h1>Please turn on JavaScript in your browser!</h1>
+  </noscript>
+
+  <main>
+    <div class="main_search">
+      <span data-target="slide-out" class="sidenav-trigger white-text"><i class="material-icons">menu</i></span>
+      <h1 class="search_heading">NDA - News Portal</h1>
+      <form action="/search.html" id="searchform">
+        <div class="input-field col s6">
+          <input placeholder="Search any event on NDA" id="searchbox" type="text" style="width: 300px;" name="s"
+            autocomplete="off" autocapitalize="none" autocorrect="off" autofocus="" spellcheck="false" required="">
+          <i class="material-icons prefix" id="searchbtn">search</i>
+        </div>
+      </form>
+    </div> <!-- search end -->
+
+    <ul id="slide-out" class="sidenav grey darken-4 white-text">
+      <li>
+        <h5 id="qien">Quick Menu</h5>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <!-- <li><a class="subheader white-text">Main</a></li> -->
+      <a href="/about.html" style="margin: 0; padding: 0;">
+        <li>
+          <span class="waves-effect grey-text flwd" id="aouts">About us</span>
+        </li>
+      </a>
+      <a href="/faq.html" style="margin: 0; padding: 0;">
+        <li><span class="waves-effect grey-text flwd">FAQ</span></li>
+      </a>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <span class="subheader white-text" id="sgti">Settings</span>
+      </li>
+
+      <li>
+        <span class="flwd" style="color: #9e9e9e;">
+          <span id="swttm">Enable dark theme</span>
+          <span class="switch" id="drktmch">
+            <label>
+              <input type="checkbox" id="drthor">
+              <span class="lever"></span>
+            </label>
+          </span>
+        </span>
+      </li>
+    </ul> <!-- settings end -->
+
+  </main>
+
+  <!-- only for materialize's menu, I'm doesn't using jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./js/i18/strings.js"></script>
+  <script src="./js/i18/translate-home.js"></script>
+  <script src="./js/home.js"></script>
+</body>
+
+</html>

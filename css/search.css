@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #303030;
+    color: azure;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #dbdbdb;
+}
+
+.nav-link {
+	display: none;
+}

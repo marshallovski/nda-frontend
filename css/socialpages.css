@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background-color: #303030;
+    color: azure;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+.ganyu-img {
+    width: 320px;
+    margin-top: 1em;
+    border-radius: 3px;
+    margin-bottom: 4em;
+}
+
+.qu-badge {
+    display: inline-block;
+    padding: .35em .6em;
+    border-radius: 8px;
+    margin-right: 10px;
+    color: #222;
+    font-size: 75%;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #ffc107;
+    margin-bottom: 1em;
+}
+
+.answ-badge {
+    display: inline-block;
+    padding: .35em .6em;
+    border-radius: 8px;
+    margin-right: 10px;
+    color: #222;
+    font-size: 75%;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #81c784;
+}
+
+#faqscontent {
+    text-align: left;
+    width: 350px;
+    margin-left: 5em;
+    margin-top: 2em;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #dbdbdb;
+}
+
+.btns {
+    margin-top: 3em;
+}
+
+@media only screen and (max-width: 736px) {
+    #faqscontent {
+        margin-left: 1em;
+        width: 310px;
+        font-size: 14px;
+    }
+}

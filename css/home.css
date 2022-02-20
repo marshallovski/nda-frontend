@@ -1,0 +1,46 @@
+body {
+    background-color: #1d1f21;
+    color: #c5c8c6;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body-light {
+    background-color: #ffffff;
+    color: #373b41;
+}
+
+main {
+    text-align: center;
+}
+
+.search_heading {
+    font-size: 48px;
+}
+
+input {
+    color: #c5c8c6;
+}
+
+li {
+    color: #c5c8c6;
+}
+
+.sidenav-trigger {
+    cursor: pointer;
+}
+
+.flwd {
+    width: 100%;
+}
+
+#searchbtn {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 736px) {
+
+    #searchbox,
+    input {
+        width: 250px !important;
+    }
+}

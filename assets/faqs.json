@@ -1,0 +1,14 @@
+{
+    "dystm": [
+        "Do you use telemetry?",
+        "Of course no! No any analytics, web-frameworks, etc.\nAll builded on <a href=\"https://materializecss.com\">materializecss</a>. <small>(exclude faq and about page)</small>"
+    ],
+    "nwhfk": [
+        "Which framework NDA use? Maybe React.js?",
+        "Sorry, but no, NDA doesn't use bullshit like React. We're use materializecss at all."
+    ],
+    "is_oss": [
+        "Is NDA open-source?",
+        "Yes, full NDA's code is on <a href=\"https://github.com/marshallovski/nda-frontend\">Github</a>."
+    ]
+}
